@@ -1,0 +1,4 @@
+# Optional. Copy to .dev.vars in this same directory and enter your own key.
+# No key is needed for image import and manual review.
+DASHSCOPE_API_KEY=
+AI_MODEL=qwen3-vl-plus

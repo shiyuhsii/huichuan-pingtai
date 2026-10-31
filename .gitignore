@@ -1,0 +1,33 @@
+# Dependencies and build outputs
+**/node_modules/
+**/dist/
+**/.next/
+**/.vinext/
+**/out/
+**/coverage/
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# Local records, runtime, logs and developer context
+**/.wrangler/
+**/.sites-runtime/
+**/.runtime/
+**/.test-tmp/
+**/outputs/
+**/.agents/
+**/.codex/
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/*.log
+*.zip
+
+# Secrets (only the empty example is tracked)
+**/.env*
+**/.dev.vars*
+!**/.dev.vars.example
+**/*.pem
+**/*.key
+
+.DS_Store
+Thumbs.db
